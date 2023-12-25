@@ -105,7 +105,7 @@ def print_inorder(root):
   """
   if root.left is not None:
     print_inorder(root.left)
-  print 'value: %2d ' % root.value
+  print('value: %2d ' % root.value)
   if root.right is not None:
     print_inorder(root.right)
 
