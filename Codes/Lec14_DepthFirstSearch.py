@@ -5,22 +5,6 @@ Implementation of Depth First Search (DFS) algorithm in Python.
 '''
 
 def DFS(graph, start):
-    '''
-    Implementation of DFS algorithm.
-
-    Parameters
-    ----------
-    graph : dict
-        Graph to be traversed.
-    start : int
-        Starting vertex.
-
-    Returns
-    -------
-    visited : list
-        List of visited vertices.
-
-    '''
     visited = []
     stack = [start]
 
